@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Application - FraudDMS Panel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- WIP Banner -->
+    <div class="wip-banner">
+        <div class="container">
+            <p>FraudDMS Panel is in active development. Sign up for beta access to test our fraud detection system.</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>FraudDMS Panel</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#performance">Performance</a></li>
+                <li><a href="index.html#creator">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Beta Form Section -->
+    <section class="beta-form-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Join the Beta Program</h1>
+                <p>Apply for early access to FraudDMS Panel and help shape the future of fraud detection</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="betaForm" class="beta-form">
+                    <div class="form-group">
+                        <label for="company">Company Name *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="industry">Industry *</label>
+                        <select id="industry" name="industry" required>
+                            <option value="">Select Industry</option>
+                            <option value="crypto-exchange">Crypto Exchange</option>
+                            <option value="casino">Casino Operations</option>
+                            <option value="fintech">Fintech</option>
+                            <option value="payment-processing">Payment Processing</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="role">Your Role *</label>
+                        <select id="role" name="role" required>
+                            <option value="">Select Role</option>
+                            <option value="cto">CTO</option>
+                            <option value="security-director">Security Director</option>
+                            <option value="operations-manager">Operations Manager</option>
+                            <option value="developer">Developer</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="volume">Transaction Volume (monthly)</label>
+                        <select id="volume" name="volume">
+                            <option value="">Select Volume</option>
+                            <option value="under-10k">Under 10,000</option>
+                            <option value="10k-100k">10,000 - 100,000</option>
+                            <option value="100k-1m">100,000 - 1,000,000</option>
+                            <option value="over-1m">Over 1,000,000</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="use-case">Use Case Description *</label>
+                        <textarea id="use-case" name="use-case" rows="4" placeholder="Describe how you plan to use FraudDMS Panel..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <span class="checkmark"></span>
+                            I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a> and understand that FraudDMS Panel processes data locally
+                        </label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="updates" name="updates">
+                            <span class="checkmark"></span>
+                            I would like to receive updates about FraudDMS Panel development
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Submit Beta Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>FraudDMS Panel</span>
+                    </div>
+                    <p>Beta Version | Designed for Crypto Exchanges & Casinos</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="https://github.com/0ff-set/" target="_blank">GitHub Repository</a></li>
+                        <li><a href="https://www.linkedin.com/in/aleinikau" target="_blank">LinkedIn Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Beta Program</h3>
+                    <ul>
+                        <li><a href="mailto:vladyslav.aleinikau@gmail.com">vladyslav.aleinikau@gmail.com</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#performance">Performance</a></li>
+                        <li><a href="index.html#creator">About Creator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Industries</h3>
+                    <ul>
+                        <li><a href="#">Crypto Exchanges</a></li>
+                        <li><a href="#">Casino Operations</a></li>
+                        <li><a href="#">Financial Services</a></li>
+                        <li><a href="#">Payment Processing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>FraudDMS Panel | Beta Version | Designed for Crypto Exchanges & Casinos | © 2025 Vladyslav Aleinikov</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('betaForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const email = formData.get('email');
+            
+            // Show confirmation
+            const formContainer = document.querySelector('.form-container');
+            formContainer.innerHTML = `
+                <div class="confirmation-message">
+                    <div class="confirmation-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h2>Application Received!</h2>
+                    <p>We'll contact you at <strong>${email}</strong> within 48 hours to discuss your beta access.</p>
+                    <p>Thank you for your interest in FraudDMS Panel!</p>
+                    <a href="index.html" class="btn btn-primary">
+                        <i class="fas fa-home"></i>
+                        Return to Home
+                    </a>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
